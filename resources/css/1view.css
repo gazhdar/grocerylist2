@@ -1,0 +1,65 @@
+body  {
+    background-image: url("sc.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+button{
+    -moz-box-shadow:inset 0px 1px 0px 0px #b4f7e9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #b4f7e9;
+	box-shadow:inset 0px 1px 0px 0px #b4f7e9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2df0c6), color-stop(1, #189e81));
+	background:-moz-linear-gradient(top, #2df0c6 5%, #189e81 100%);
+	background:-webkit-linear-gradient(top, #2df0c6 5%, #189e81 100%);
+	background:-o-linear-gradient(top, #2df0c6 5%, #189e81 100%);
+	background:-ms-linear-gradient(top, #2df0c6 5%, #189e81 100%);
+	background:linear-gradient(to bottom, #2df0c6 5%, #189e81 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2df0c6', endColorstr='#189e81',GradientType=0);
+	background-color:#2df0c6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #80f5dc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5ad1b7;
+}
+
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #189e81), color-stop(1, #2df0c6));
+	background:-moz-linear-gradient(top, #189e81 5%, #2df0c6 100%);
+	background:-webkit-linear-gradient(top, #189e81 5%, #2df0c6 100%);
+	background:-o-linear-gradient(top, #189e81 5%, #2df0c6 100%);
+	background:-ms-linear-gradient(top, #189e81 5%, #2df0c6 100%);
+	background:linear-gradient(to bottom, #189e81 5%, #2df0c6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#189e81', endColorstr='#2df0c6',GradientType=0);
+	background-color:#189e81;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+}
+.link:hover{
+    color: #043228;
+}

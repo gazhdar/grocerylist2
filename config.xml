@@ -4,9 +4,10 @@
     <name>hello phonegap</name>
 
     <description>
-        most basic of examples, responds to deviceready
+        Grocery listing mobile app
     </description>
     <content src="index.html" />
+     <content src="startview.html" />
     <author href="https://rhildred.github.io">
         Rich Hildred
     </author>
